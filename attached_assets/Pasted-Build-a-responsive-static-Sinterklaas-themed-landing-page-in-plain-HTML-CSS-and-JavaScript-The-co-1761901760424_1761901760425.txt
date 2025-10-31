@@ -1,0 +1,101 @@
+Build a responsive, static Sinterklaas-themed landing page in plain HTML, CSS and JavaScript. The code must be portable and suitable for pushing to GitHub Pages (so no backend, no Replit-only features).
+
+Structure:
+
+Create a root folder with index.html, style.css, and script.js.
+
+In index.html, build a simple landing page for promoting Sinterklaas coloring books sold on Amazon.
+
+Add a top navigation with the site title: “Sinterklaas Kleurboeken” and menu links: “Boeken”, “Voorbeelden”, “Over”.
+
+Add a hero section with a Sinterklaas illustration background (use a placeholder image URL) and a CTA button “Bekijk alle boeken”.
+
+Books to show (5 cards):
+
+“Sinterklaas Kleurboek – Creatieve Kleurplaten voor de Feestdagen: Leuke en Traditionele Sinterklaas Illustraties voor Jong en Oud”
+
+doelgroep: “voor alle leeftijden”
+
+korte tekst: “Een mix van traditionele Sinterklaas, Pieten, pakjesboot en cadeaus. Leuk voor gezinnen.”
+
+“Sinterklaas Kleurboek voor Peuters en Kleuters: Leuke en Makkelijke Kleurplaten van Piet, Cadeautjes en Pakjesavond voor Kinderen 3, 4, 5 en 6 jaar”
+
+doelgroep: “3–6 jaar”
+
+korte tekst: “Grote vormen, makkelijke lijnen, ideaal om in te kleuren.”
+
+“Sinterklaas Kleurboek voor Kinderen van 6 tot 8 Jaar: Creatieve en Leuke Kleurplaten van Piet, Cadeaus en Pakjesavond”
+
+doelgroep: “6–8 jaar”
+
+korte tekst: “Iets meer details, leuke Sinterklaasmomenten en surprises.”
+
+“Sinterklaas Kleurboek voor Kinderen van 8 tot 10 Jaar: Creatieve en Mooie Kleurplaten van Piet, Cadeaus en Pakjesavond”
+
+doelgroep: “8–10 jaar”
+
+korte tekst: “Voor kinderen die al beter kunnen kleuren en meer variatie willen.”
+
+“Sinterklaas Kleurboek voor Kinderen van 10 tot 12 Jaar: Surprises, Pakjes en Creatieve Kleurplaten om Zelf in te Kleuren”
+
+doelgroep: “10–12 jaar”
+
+korte tekst: “Meer detail, meer scènes, leuk voor oudere kinderen.”
+
+Layout for the books:
+
+Show the books in a responsive grid (2–3 columns on desktop, 1 column on mobile).
+
+Each book card must contain:
+
+a cover placeholder image (<img src="https://via.placeholder.com/400x550?text=Sinterklaas+Kleurboek" alt="Sinterklaas kleurboek cover">)
+
+title
+
+age/target group badge
+
+short description
+
+button “Bekijk op Amazon” (link to # for now, I will replace with real Amazon links)
+
+Examples section:
+
+Add a section “Voorbeelden uit het boek”.
+
+Show 4–6 sample images as placeholders (use placeholder URLs, for example https://via.placeholder.com/800x800?text=Kleurplaat+Sinterklaas).
+
+Under the images, add a short text: “De uiteindelijke kleurplaten hebben dikke zwarte lijnen en zijn geschikt om te printen.”
+
+Styling:
+
+Use modern, clean CSS in style.css.
+
+Colors: use Sinterklaas colors: dark red (#8B0000), gold (#F4C430), white, and a light background.
+
+Make sure buttons have hover states.
+
+Make the page mobile-first and responsive.
+
+Footer:
+
+Add a footer with: “© 2025 Sinterklaas Kleurboeken – Verkrijgbaar via Amazon”.
+
+Add a note: “Dit is een onofficiële Sinterklaas-pagina.”
+
+JavaScript (script.js):
+
+Put the 5 books in a JavaScript array of objects (title, targetAge, description, cover, link).
+
+Render the book cards dynamically from that array into the “Boeken” section, so I can later add more books without changing the HTML.
+
+Important:
+
+Do NOT use React, Vue or any build tools.
+
+Do NOT hardcode Replit-specific code.
+
+The project must be plain static files so I can push to GitHub and deploy on GitHub Pages.
+
+Write clean, semantic HTML5.
+
+Deliverables: return the full content of index.html, style.css, and script.js.
