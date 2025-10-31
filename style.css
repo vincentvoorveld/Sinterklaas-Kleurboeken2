@@ -69,22 +69,23 @@ body {
     background-image: url('https://via.placeholder.com/1920x600/8B0000/F4C430?text=Sinterklaas');
     background-size: cover;
     background-position: center;
-    min-height: 500px;
+    min-height: 350px;
     display: block;
     position: relative;
     margin: 0;
     padding: 0;
+    border-top: 4px solid var(--gold);
 }
 
 .hero-overlay {
     background-color: var(--dark-red);
     width: 100%;
-    padding: 4rem 0;
+    padding: 3rem 0;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 500px;
+    min-height: 350px;
 }
 
 .hero-title {
