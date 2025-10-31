@@ -4,35 +4,35 @@ const books = [
         targetAge: "voor alle leeftijden",
         description: "Een mix van traditionele Sinterklaas, Pieten, pakjesboot en cadeaus. Leuk voor gezinnen.",
         cover: "https://via.placeholder.com/400x550?text=Sinterklaas+Kleurboek",
-        link: "#"
+        link: "https://www.amazon.nl/dp/B0DJGD4ZS3"
     },
     {
         title: "Sinterklaas Kleurboek voor Peuters en Kleuters: Leuke en Makkelijke Kleurplaten van Piet, Cadeautjes en Pakjesavond voor Kinderen 3, 4, 5 en 6 jaar",
         targetAge: "3–6 jaar",
         description: "Grote vormen, makkelijke lijnen, ideaal om in te kleuren.",
         cover: "https://via.placeholder.com/400x550?text=Sinterklaas+Kleurboek",
-        link: "#"
+        link: "https://www.amazon.nl/dp/B0FSLR654C"
     },
     {
         title: "Sinterklaas Kleurboek voor Kinderen van 6 tot 8 Jaar: Creatieve en Leuke Kleurplaten van Piet, Cadeaus en Pakjesavond",
         targetAge: "6–8 jaar",
         description: "Iets meer details, leuke Sinterklaasmomenten en surprises.",
         cover: "https://via.placeholder.com/400x550?text=Sinterklaas+Kleurboek",
-        link: "#"
+        link: "https://www.amazon.nl/dp/B0FV2NK32K"
     },
     {
         title: "Sinterklaas Kleurboek voor Kinderen van 8 tot 10 Jaar: Creatieve en Mooie Kleurplaten van Piet, Cadeaus en Pakjesavond",
         targetAge: "8–10 jaar",
         description: "Voor kinderen die al beter kunnen kleuren en meer variatie willen.",
         cover: "https://via.placeholder.com/400x550?text=Sinterklaas+Kleurboek",
-        link: "#"
+        link: "https://www.amazon.nl/dp/B0FXGMZGGK"
     },
     {
         title: "Sinterklaas Kleurboek voor Kinderen van 10 tot 12 Jaar: Surprises, Pakjes en Creatieve Kleurplaten om Zelf in te Kleuren",
         targetAge: "10–12 jaar",
         description: "Meer detail, meer scènes, leuk voor oudere kinderen.",
         cover: "https://via.placeholder.com/400x550?text=Sinterklaas+Kleurboek",
-        link: "#"
+        link: "https://www.amazon.nl/dp/B0FXXBTQPN"
     }
 ];
 
