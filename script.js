@@ -42,6 +42,7 @@ function renderBooks() {
     books.forEach(book => {
         const bookCard = document.createElement('div');
         bookCard.className = 'book-card';
+        bookCard.style.cursor = 'pointer';
         
         bookCard.innerHTML = `
             <img src="${book.cover}" alt="${book.title}" class="book-cover">
@@ -52,6 +53,10 @@ function renderBooks() {
                 <a href="${book.link}" class="btn btn-secondary">Bekijk op Amazon</a>
             </div>
         `;
+        
+        bookCard.addEventListener('click', function() {
+            window.open(book.link, '_blank');
+        });
         
         booksGrid.appendChild(bookCard);
     });
