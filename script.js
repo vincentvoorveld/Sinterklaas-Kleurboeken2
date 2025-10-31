@@ -7,7 +7,7 @@ const books = [
         link: "https://www.amazon.nl/dp/B0DJGD4ZS3"
     },
     {
-        title: "Sinterklaas Kleurboek voor Peuters en Kleuters: Leuke en Makkelijke Kleurplaten van Piet, Cadeautjes en Pakjesavond voor Kinderen 3, 4, 5 en 6 jaar",
+        title: "Sinterklaas Kleurboek voor Peuters en Kleuters: Makkelijke Kleurplaten van Piet, Cadeautjes en Pakjesavond",
         targetAge: "3–6 jaar",
         description: "Grote vormen, makkelijke lijnen, ideaal om in te kleuren.",
         cover: "images/3-6-jaar.png",
