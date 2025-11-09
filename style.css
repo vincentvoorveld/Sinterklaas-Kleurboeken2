@@ -263,10 +263,21 @@ body {
 .about-section p {
     font-size: 1.1rem;
     margin-bottom: 1rem;
-    text-align: center;
-    max-width: 800px;
+    text-align: left;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 1.8;
+}
+
+.about-section a {
+    color: var(--dark-red);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.about-section a:hover {
+    color: var(--gold);
 }
 
 .footer {
@@ -283,6 +294,71 @@ body {
 .footer-note {
     font-size: 0.875rem;
     opacity: 0.8;
+}
+
+.social-sharing {
+    margin-bottom: 2rem;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.share-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--gold);
+    font-weight: 600;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.social-btn:hover {
+    background-color: var(--gold);
+    color: var(--dark-red);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.social-icon {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.social-btn.facebook:hover {
+    background-color: #1877f2;
+    color: white;
+    border-color: #1877f2;
+}
+
+.social-btn.pinterest:hover {
+    background-color: #e60023;
+    color: white;
+    border-color: #e60023;
+}
+
+.social-btn.instagram:hover {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+    border-color: #e6683c;
 }
 
 @media (min-width: 768px) {
