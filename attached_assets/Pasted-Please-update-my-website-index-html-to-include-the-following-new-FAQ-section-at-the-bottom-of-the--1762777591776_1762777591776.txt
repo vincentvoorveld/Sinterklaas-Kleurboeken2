@@ -1,0 +1,81 @@
+Please update my website (index.html) to include the following new FAQ section at the bottom of the homepage, right above the footer.
+
+Keep the existing color scheme, fonts, and layout consistent with the current design.
+Make sure it’s mobile-friendly and the accordion works properly (click to open/close each question).
+Do not remove any existing content — just add this new section as-is.
+
+Here’s the full code to insert:
+
+<section id="faq" class="faq-section" style="padding:2rem 1rem;max-width:800px;margin:0 auto;">
+  <h2>Veelgestelde vragen</h2>
+
+  <style>
+    .faq-item {
+      border-bottom:1px solid #ddd;
+      padding:1rem 0;
+    }
+    .faq-question {
+      background:none;
+      border:none;
+      width:100%;
+      text-align:left;
+      font-size:1.1rem;
+      font-weight:600;
+      cursor:pointer;
+      padding:0.5rem 0;
+    }
+    .faq-answer {
+      display:none;
+      margin-top:0.5rem;
+      color:#333;
+      line-height:1.6;
+    }
+  </style>
+
+  <div class="faq-item">
+    <button class="faq-question">Vanaf welke leeftijd zijn de kleurboeken geschikt?</button>
+    <div class="faq-answer">
+      <p>Onze Sinterklaas kleurboeken zijn geschikt voor kinderen vanaf ongeveer drie jaar.
+      De eenvoudige illustraties in de peuter- en kleutereditie zijn ideaal voor jonge kinderen,
+      terwijl oudere kinderen en zelfs volwassenen plezier beleven aan de meer gedetailleerde pagina’s.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Kan ik het Sinterklaas Kleurboek ook als cadeau laten versturen?</button>
+    <div class="faq-answer">
+      <p>Ja, dat kan! De boeken zijn verkrijgbaar via
+      <a href="https://www.amazon.nl/s?k=sinterklaas+kleurboek+aria+silverwood" target="_blank" rel="noopener noreferrer">Amazon.nl</a>.
+      Tijdens het bestellen kun je ervoor kiezen om het boek als cadeau te laten verzenden.
+      Amazon pakt het netjes in en kan desgewenst een persoonlijk bericht toevoegen — handig voor een verrassingsmoment.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Wat is de educatieve waarde van de Sinterklaas kleurboeken?</button>
+    <div class="faq-answer">
+      <p>Kleuren stimuleert de fijne motoriek, concentratie en creativiteit van kinderen.
+      In onze Sinterklaas kleurboeken komen herkenbare figuren voor zoals de Sint, de Pieten en het paard,
+      waardoor kinderen spelenderwijs leren over deze feesttraditie en de betekenis van Sinterklaas in Nederland.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Zijn de kleurboeken geschikt voor alcohol markers?</button>
+    <div class="faq-answer">
+      <p>Alcohol markers kunnen doordrukken naar de volgende pagina. Daarom zijn onze illustraties
+      eenzijdig geprint, zodat je geen tekening aan de achterkant beschadigt.
+      Het is wel verstandig om tijdens het kleuren een extra vel blanco papier tussen de pagina’s te leggen
+      om het papier te beschermen.</p>
+    </div>
+  </div>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(btn=>{
+      btn.addEventListener('click',()=>{
+        const answer=btn.nextElementSibling;
+        answer.style.display=answer.style.display==='block'?'none':'block';
+      });
+    });
+  </script>
+</section>
