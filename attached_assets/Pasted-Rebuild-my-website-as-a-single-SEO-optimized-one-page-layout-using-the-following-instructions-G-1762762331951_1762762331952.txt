@@ -1,0 +1,61 @@
+Rebuild my website as a single, SEO-optimized one-page layout using the following instructions:
+
+GENERAL
+- Keep existing colors, fonts, and branding.
+- Make sure all main sections are on one HTML page (no separate subpages).
+- The page should scroll smoothly from top to bottom.
+- Maintain responsiveness (mobile-friendly) and full compatibility with GitHub Pages.
+
+STRUCTURE (order of sections):
+1. HERO SECTION:
+   - Title (H1): “Sinterklaas Kleurboeken”
+   - Subtitle: “Creatieve kleurplaten voor jong en oud – vrolijke, traditionele illustraties van Aria Silverwood.”
+   - Add a large call-to-action button linking to Amazon:
+     <a href="https://www.amazon.nl/s?k=sinterklaas+kleurboek+aria+silverwood" target="_blank" rel="noopener noreferrer" class="cta-btn">Bekijk op Amazon</a>
+
+2. ONZE SINTERKLAAS KLEURBOEKEN COLLECTIE:
+   - Use a short intro paragraph (2–3 sentences).
+   - Display a grid of book covers with captions (e.g., voor kleuters, voor oudere kinderen, creatieve editie, enz.).
+   - Each image links internally (anchor links) to relevant info lower on the page.
+
+3. CADEAU-IDEEN:
+   - Add a paragraph (~100–120 words) explaining why Sinterklaas kleurboeken een leuk en leerzaam cadeau zijn.
+   - Use keywords naturally: “Sinterklaas kleurboek”, “cadeautje voor kinderen”, “kleurplezier”, “familie”.
+   - Include 1 Amazon button again for conversion.
+
+4. VOORBEELDEN:
+   - Show example pages or sample coloring images.
+   - Use alt text for all images (important for SEO).
+   - Add 2–3 internal anchor links (bijv. “Terug naar collectie”, “Lees meer over Aria Silverwood”).
+
+5. OVER SINTERKLAAS KLEURBOEKEN:
+   - Write ~150 words of keyword-rich text describing:
+     - The inspiration behind the series.
+     - Who it’s for (ages, families, teachers).
+     - That they’re available on Amazon.
+   - Include terms like “Sinterklaas kleurboek”, “kleurplaten”, “voor kinderen”, “Aria Silverwood”.
+
+SEO & META
+- Update <title> to:
+  Sinterklaas Kleurboeken – Leuke Kleurplaten voor Jong & Oud
+- Update <meta name="description"> to:
+  Ontdek onze Sinterklaas kleurboeken – vrolijke kleurplaten voor jong en oud, met traditionele illustraties van Aria Silverwood. Verkrijgbaar op Amazon.
+- Ensure meta description ≤ 1000 pixels (shorter than before).
+- Add:
+  <link rel="canonical" href="https://sinterklaaskleurboek.nl/">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+LINKS
+- At least 6 internal anchor links (#collectie, #cadeau, #voorbeelden, #over, #hero, #top).
+- 1 external link to Amazon (as above).
+
+SOCIAL & SHARING
+- Add simple social icons (Facebook, Pinterest, Instagram) at the bottom.
+- Use target="_blank" and rel="noopener noreferrer".
+
+CONTENT GOAL
+- Total text length on the page should exceed 300 words.
+- Include heading tags H1–H3 properly.
+- Keep HTML clean, semantic, and light.
+- Optimize images (small file size, descriptive alt text).
